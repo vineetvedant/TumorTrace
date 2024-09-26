@@ -1,0 +1,13 @@
+train: C:\Users\VEDANT\OneDrive\Desktop\Tumor Detection\train
+val: C:\Users\VEDANT\OneDrive\Desktop\Tumor Detection\valid
+test: C:\Users\VEDANT\OneDrive\Desktop\Tumor Detection\test 
+
+nc: 5
+names: ['NO_tumor', 'glioma', 'meningioma', 'pituitary', 'space-occupying lesion-']
+
+roboflow:
+  workspace: brain-tumor-detection-wsera
+  project: tumor-detection-ko5jp
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/brain-tumor-detection-wsera/tumor-detection-ko5jp/dataset/8
